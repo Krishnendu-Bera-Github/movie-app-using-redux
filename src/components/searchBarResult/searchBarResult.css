@@ -1,0 +1,40 @@
+.parent-container {
+  position: relative;
+  width: 635px;
+  margin: 0 auto;
+  /* background-color: #1f1f1f; */
+  z-index: 2;
+}
+
+.searchbar-container {
+  width: 100%;
+  max-height: 450px;
+  /* height: 100%; */
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  background-color: white;
+  margin: 0 30px;
+  overflow-y: scroll;
+  /* background-color: #1a1a1a; */
+}
+
+.search-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  /* color: white; */
+}
+
+.search-item img {
+  width: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
