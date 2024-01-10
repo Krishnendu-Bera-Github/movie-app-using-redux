@@ -1,0 +1,111 @@
+.movieDetails-container {
+  max-width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.back-img {
+  max-width: 100%;
+  max-height: 90%;
+  overflow: hidden;
+}
+
+.back-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.poster-content {
+  max-width: 90vw;
+  position: absolute;
+  top: 19%;
+  left: 5%;
+  display: flex;
+}
+
+.poster-img {
+  max-width: 25vw;
+  max-height: 500px;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 10px;
+}
+
+.poster-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.movie-content {
+  max-width: 55vw;
+  margin: 20px;
+  padding-left: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movie-content .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.movie-content .title span {
+  font-weight: normal;
+  color: rgb(195, 194, 194);
+}
+
+.time-genre {
+  display: flex;
+  gap: 10px;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+}
+
+.season {
+  display: flex;
+  gap: 20px;
+}
+
+.overview {
+  width: 100%;
+}
+
+.bullet {
+  font-weight: 900;
+}
+
+.tagline {
+  font-style: italic;
+}
+.creator {
+  color: white;
+}
+
+.creator .director {
+  font-size: 1rem;
+  font-weight: bold;
+}
